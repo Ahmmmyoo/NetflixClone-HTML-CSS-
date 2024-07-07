@@ -1,0 +1,256 @@
+body,
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+.mainTopSection {
+  background-image: url(images/header-image.png);
+  background-size: cover;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.headSection {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 32px;
+}
+
+.netflixIconSection img {
+  width: 148px;
+  height: 40px;
+}
+
+.button {
+  background-color: rgb(216, 47, 47);
+  border-radius: 4px;
+  transition: background-color 300ms;
+}
+
+.button:hover {
+  background-color: rgb(185, 37, 37);
+  cursor: pointer;
+}
+
+.signInButton .button p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75px;
+  height: 32px;
+  color: rgb(241, 248, 254);
+  font-family: "Roboto";
+  font-weight: 450;
+  font-size: 14px;
+}
+
+.homeSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 20px;
+  align-items: center;
+}
+
+.homeSection h1 {
+  color: rgb(241, 248, 254);
+  font-family: "Roboto";
+  font-weight: 800;
+  font-size: 50px;
+}
+
+.homeSection p {
+  color: rgb(241, 248, 254);
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.homeSection p + p {
+  color: rgb(241, 248, 254);
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.emailSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.emailSection input {
+  height: 50px;
+  width: 300px;
+  opacity: 90%;
+  background-color: rgb(39, 37, 37);
+  border-radius: 4px;
+  border-style: none;
+}
+
+.emailSection input:active {
+  border: 3px solid rgb(220, 217, 217);
+}
+
+.emailSection .button {
+  height: 45px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 22px;
+  color: aliceblue;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 40px;
+  gap: 20px;
+  width: 40vw;
+}
+
+.text h1 {
+  color: aliceblue;
+  font-family: "Roboto";
+  font-weight: 900;
+  font-size: 50px;
+}
+
+.text p {
+  color: aliceblue;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.secondSection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 450px;
+  background-color: rgb(10, 10, 10);
+}
+
+.secondSection .pic img{
+  width: 40vw;
+  padding: 40px 40px;
+}
+
+.qnaSection h1 {
+  color: aliceblue;
+  font-family: "Roboto";
+  font-weight: 900;
+  font-size: 50px;
+}
+
+.qnaSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  background-color: rgb(10, 10, 10);
+}
+.qnaSection h1 {
+  padding: 20px;
+}
+
+.qnaSection .q {
+  color: aliceblue;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 24px;
+  background-color: rgba(95, 95, 95, 0.486);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  width: 85vw;
+  transition: background-color 300ms;
+}
+
+.qnaSection .q:hover {
+  background-color: rgba(125, 125, 125, 0.486);
+  cursor: pointer;
+}
+
+.qnaSection .q .symbol {
+  font-size: 50px;
+  font-weight: 100;
+  padding: 0;
+}
+
+.endQA {
+  color: aliceblue;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 18px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+}
+
+.endQA .emailSection {
+  padding-bottom: 30px;
+}
+
+.footerSection {
+  background-color: rgb(10, 10, 10);
+  color: aliceblue;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 50px;
+}
+
+.footerSection div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.langButton p {
+  background-color: rgb(22, 22, 22);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px;
+  border: 1px solid rgb(65, 65, 65);
+  border-radius: 4px;
+}
+
+.footerSection .underline{
+  text-decoration: underline;
+}
